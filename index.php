@@ -3,7 +3,7 @@
 <head>
 <title>Blacklist Monitoring</title>
 <link rel="stylesheet" href="assets/css/theme.css">
-<link rel="icon" type="image/x-icon" href="/assets/images/favicon.jpg">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg">
 </head>
 
 <body class="bg-light ">
