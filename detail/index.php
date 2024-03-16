@@ -31,8 +31,8 @@ $info = maill($link);
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-<link rel="favicon" type="image/jpg" href="../assets/images/favicon.jpg">
-<title>Detail</title>
+<link rel="icon" type="image/x-icon" href="../assets/images/favicon.jpg">
+<title>General Infromation</title>
 <!--     Fonts and icons     -->
 <!-- Nucleo Icons -->
 <link rel="stylesheet" href="../assets/css/theme.css">

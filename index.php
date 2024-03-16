@@ -1,7 +1,7 @@
 <?php include "data/get.php"; ?>
 <!DOCTYPE html>
 <head>
-<title>Blacklist Monitoring</title>
+<title>Notice Person Monitoring</title>
 <link rel="stylesheet" href="assets/css/theme.css">
 <link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg">
 </head>
