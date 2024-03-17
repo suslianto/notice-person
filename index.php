@@ -42,7 +42,7 @@
                                 </thead>
                                 <tbody>
                                 <?php
-                                foreach ($data_semarang["data"] as $value) {
+                                foreach ($data_nya["data"] as $value) {
                                 $foto = $value["foto"];
                                 $pin = $value["id"];
                                 $nipeg = $value["nipeg"];
@@ -56,14 +56,14 @@
                                                     </div>
                                                 </div> -->
                                                 <div class="lh-1">
-                                                    <h5 class="mb-1"> <a href="detail?id=<?php echo $pin; ?>&nipeg=<?php echo $nipeg; ?>&url=<?php echo $url_semarang; ?>&token=<?php echo $token_semarang; ?>&pt=<?php echo $pt_semarang; ?>" target="_blank"" class="text-inherit"><?php echo $value["name"];?></a></h5>
+                                                    <h5 class="mb-1"> <a href="detail?id=<?php echo $pin; ?>&nipeg=<?php echo $nipeg; ?>&url=<?php echo $url_nya; ?>&token=<?php echo $token_nya; ?>&pt=<?php echo $pt_nya; ?>" target="_blank"" class="text-inherit"><?php echo $value["name"];?></a></h5>
                                                 </div>
                                             </div>
                                         </td>
                                         <td class="align-middle "><?php echo $pin; ?></td>
                                         <td class="align-middle"><?php echo $value["dept"];?></td>
                                         <td class="align-middle"><span class="badge bg-danger">Blacklist</span></td>
-                                        <td class="align-middle"><a href="detail?id=<?php echo $pin; ?>&nipeg=<?php echo $nipeg; ?>&url=<?php echo $url_semarang; ?>&token=<?php echo $token_semarang; ?>&pt=<?php echo $pt_semarang; ?>" target="_blank"><span class="badge bg-info">Detail</span></a></td>
+                                        <td class="align-middle"><a href="detail?id=<?php echo $pin; ?>&nipeg=<?php echo $nipeg; ?>&url=<?php echo $url_nya; ?>&token=<?php echo $token_nya; ?>&pt=<?php echo $pt_nya; ?>" target="_blank"><span class="badge bg-info">Detail</span></a></td>
                                     </tr>
                                     <?php
                                     }
@@ -77,8 +77,5 @@
         </div>
     </div>
 </div>
-<!-- Scripts -->
-<script src="assets/js/main.js"></script>
-<script src="assets/js/sidebarMenu.js"></script>
 </body>
 </html>

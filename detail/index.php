@@ -32,19 +32,11 @@ $info = maill($link);
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 <link rel="icon" type="image/x-icon" href="../assets/images/favicon.jpg">
-<title>General Infromation</title>
+<title>General Information</title>
 <!--     Fonts and icons     -->
 <!-- Nucleo Icons -->
 <link rel="stylesheet" href="../assets/css/theme.css">
-<link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-<link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
-<link href="../assets/css/info.css" rel="stylesheet" />
-<link href="../assets/css/bootstrap.css" rel="stylesheet" />
-<link id="pagestyle" href="assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
 <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
-<link rel="stylesheet" href="../assets/css/aos.css" />
-<script src="assets/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-<script src="../assets/js/jquery-2.1.1.min.js" type="text/javascript"></script>
 </head>
 <!-- End Navbar -->
 <body class="bg-light ">
@@ -120,61 +112,5 @@ $info = maill($link);
     </div>
 </div>
 </main>
-<!--   Core JS Files   -->
-<script src="../assets/js/core/popper.min.js"></script>
-<script src="../assets/js/core/bootstrap.min.js"></script>
-<script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-<script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
-<script src="../assets/js/plugins/chartjs.min.js"></script>
-<script>
-$(document).ready(function(){
-blinkFont();
-});
-
-function blinkFont()
-{
-document.getElementById("blink").style.color="red"
-document.getElementById("blink").style.background="white"
-setTimeout("setblinkFont()",500)
-}
-
-function setblinkFont()
-{
-document.getElementById("blink").style.color="white"
-document.getElementById("blink").style.background="red"
-setTimeout("blinkFont()",500)
-}
-</script>
-<script>
-    window.setTimeout("waktu()", 1000);
-    function waktu() {
-        var days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
-        var waktu = new Date();
-        setTimeout("waktu()", 1000);
-        document.getElementById("hari").innerHTML = days[waktu.getDay()];
-        document.getElementById("tanggal").innerHTML = waktu.getDate();
-        document.getElementById("bulan").innerHTML = waktu.getMonth()+1;
-        document.getElementById("tahun").innerHTML = waktu.getFullYear();
-        document.getElementById("jam").innerHTML = waktu.getHours();
-        document.getElementById("menit").innerHTML = waktu.getMinutes();
-        document.getElementById("detik").innerHTML = waktu.getSeconds();
-    }
-</script>
-<script>
-var win = navigator.platform.indexOf('Win') > -1;
-if (win && document.querySelector('#sidenav-scrollbar')) {
-    var options = {
-    damping: '0.5'
-    }
-    Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-}
-</script>
-<!-- Github buttons -->
-<script src="../assets/js/core/popper.min.js"></script>
-<script src="../assets/js/core/bootstrap.min.js"></script>
-<script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-<script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<script src="../assets/js/material-dashboard.min.js?v=3.0.4"></script>
 </body>
 </html>

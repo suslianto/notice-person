@@ -1,7 +1,9 @@
 <?php
-$url_semarang = "id3.tunnel.my.id:3531";
-$token_semarang = "3678B73CE78E07E3C6BFE4D5EBDFD853";
-$pt_semarang = "PT. PLN Indonesia Power Semarang";
+// $url_nya = "id13.tunnel.my.id:4361";
+// $token_nya = "FCA964A7EFCA8C2B9032CC3373AF7139";
+$url_nya = "id3.tunnel.my.id:3531";
+$token_nya = "3678B73CE78E07E3C6BFE4D5EBDFD853";
+$pt_nya = "PT. PLN Indonesia Power Labuhan Angin";
 function user_data($ur) {
     $full = array();
     $head = array('Content-Type:application/json','Accept:application/json');
@@ -20,5 +22,5 @@ function user_data($ur) {
     $data = json_decode($get, true);
     return $data;
 }
-$data_semarang = user_data("http://id3.tunnel.my.id:3231/data/dis.php");
+$data_nya = user_data("http://id3.tunnel.my.id:3231/data/dis.php");
 ?>
