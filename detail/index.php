@@ -36,6 +36,7 @@ $info = maill($link);
 <!--     Fonts and icons     -->
 <!-- Nucleo Icons -->
 <link rel="stylesheet" href="../assets/css/theme.css">
+<link href="../assets/css/bootstrap.css" rel="stylesheet" />
 <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
 </head>
 <!-- End Navbar -->
